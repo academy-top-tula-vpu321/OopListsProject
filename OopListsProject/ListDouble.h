@@ -7,7 +7,12 @@ struct Node
 	Node<T>* prev;
 };
 
+template <typename T>
 class ListDouble
 {
+	Node<T>* head;
+	Node<T>* tail;
+
+	int size;
 };
 
